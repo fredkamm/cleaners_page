@@ -1,0 +1,14 @@
+import React from "react";
+
+const CleanerLandingPage = () => {
+  return (
+    <div className="bg-gray-100 min-h-screen flex flex-col items-center justify-center px-4">
+      <img src="/images/cleaning-logo.png" alt="Cleaning logo" className="w-32 mb-8" />
+      <h1 className="text-3xl font-bold mb-4 text-gray-800">Welcome to Our Cleaning Service</h1>
+      <p className="text-gray-600 mb-8">We are a small, self-employed cleaning service that provides top-quality cleaning services for homes and businesses. Our team is dedicated to delivering exceptional service and exceeding your expectations.</p>
+      <p to="/services" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">Learn More About Our Services</p>
+    </div>
+  );
+};
+
+export default CleanerLandingPage;

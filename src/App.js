@@ -1,8 +1,12 @@
+import CleanerLandingPage from "./components/page";
+import AboutMe from "./components/hero"
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <CleanerLandingPage />
+      <AboutMe />
+    </>
   );
 }
 
