@@ -1,29 +1,24 @@
 import React from "react";
 
-const AboutMe = () => {
+const CleanerLandingPage = () => {
   return (
-    <div className="bg-gray-200 p-8">
-      <div className="max-w-2xl mx-auto">
-        <h2 className="text-3xl font-bold mb-4 text-gray-800">About Me</h2>
-        <div className="mb-4">
-          {/* <img
-            className="rounded-full w-32 h-32 mr-4"
-            src="/profile-picture.jpg"
-            alt="Profile picture"
-          /> */}
-          <p className="text-gray-700 font-medium">
-            Hi, my name is [Your Name] and I am a [Your Profession]. I have been
-            working in the field for [Number] years and have a passion for [Your
-            Passion].
-          </p>
-        </div>
-        <p className="text-gray-700 font-medium">
-          In my free time, I enjoy [Your Hobbies] and [Other Hobbies]. I am also
-          an avid [Your Favorite Thing] fan.
-        </p>
-      </div>
+    <div className="bg-hero bg-cover bg-center min-h-screen flex flex-col items-center justify-center px-4">
+      <h1 className="text-3xl font-bold mb-4 text-gray-800">
+        Welcome to Our Cleaning Service
+      </h1>
+      <p className="text-gray-600 mb-8">
+        We are a small, self-employed cleaning service that provides top-quality
+        cleaning services for homes and businesses. Our team is dedicated to
+        delivering exceptional service and exceeding your expectations.
+      </p>
+      <p
+        to="/services"
+        className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full"
+      >
+        Learn More About Our Services
+      </p>
     </div>
   );
 };
 
-export default AboutMe;
+export default CleanerLandingPage;

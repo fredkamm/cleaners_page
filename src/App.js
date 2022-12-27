@@ -1,5 +1,5 @@
-import CleanerLandingPage from "./components/page";
-import AboutMe from "./components/hero"
+import CleanerLandingPage from "./components/hero";
+import AboutMe from "./components/about"
 
 function App() {
   return (

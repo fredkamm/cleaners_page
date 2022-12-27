@@ -8,6 +8,9 @@ module.exports = {
       xl: "1280px",
     },
     extend: {
+      content: {
+        hero: 'url("/src/images/cleaningHero.jpg")',
+      },
       colors: {
         primary: "#050402",
         secondary: "#1C1D24",
