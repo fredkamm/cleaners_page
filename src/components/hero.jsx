@@ -1,8 +1,12 @@
 import React from "react";
+import Image from "../images/cleaningHero.jpg";
 
 const CleanerLandingPage = () => {
   return (
-    <div className="bg-hero bg-cover bg-center min-h-screen flex flex-col items-center justify-center px-4">
+    <div
+      className="bg-cover bg-center min-h-screen flex flex-col items-center justify-center px-4"
+      style={{ backgroundImage: `url(${Image})` }}
+    >
       <h1 className="text-3xl font-bold mb-4 text-gray-800">
         Welcome to Our Cleaning Service
       </h1>

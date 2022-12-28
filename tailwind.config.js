@@ -8,12 +8,9 @@ module.exports = {
       xl: "1280px",
     },
     extend: {
-      content: {
-        hero: 'url("/src/images/cleaningHero.jpg")',
-      },
       colors: {
-        primary: "#050402",
-        secondary: "#1C1D24",
+        primary: "#BAF6EC",
+        secondary: "d9dbda",
         tertiary: "#131419",
         accent: {
           DEFAULT: "#4d95a8",
