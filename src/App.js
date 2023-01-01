@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import CleanerLandingPage from "./components/hero";
 import AboutMe from "./components/about";
+import Contact from "./components/contact";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <CleanerLandingPage />
       <AboutMe />
+      <Contact />
     </>
   );
 }

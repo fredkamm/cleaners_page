@@ -2,7 +2,7 @@ import React from "react";
 import Image from "../images/cleaningHero.jpg";
 import { Link } from "react-scroll";
 
-import { HiArrowNarrowRight } from "react-icons/hi"
+import { HiArrowNarrowRight } from "react-icons/hi";
 
 const CleanerLandingPage = () => {
   return (
@@ -19,9 +19,7 @@ const CleanerLandingPage = () => {
       <Link to="Services" smooth={true} duration={800}>
         <button className="btn group">
           Schedule an Appointment
-          <span className="group-hover:rotate-90 duration-300">
-            <HiArrowNarrowRight className="ml-3" />
-          </span>
+          <HiArrowNarrowRight className="group-hover:rotate-90 duration-300 ml-3" />
         </button>
       </Link>
     </div>

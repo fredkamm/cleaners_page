@@ -17,6 +17,7 @@ module.exports = {
           hover: "#2d545e",
         },
         paragraph: "#949fb0",
+        text:"#D155AD",
       },
     },
   },

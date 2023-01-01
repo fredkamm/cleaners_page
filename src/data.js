@@ -1,3 +1,4 @@
+import { FiMapPin, FiPhone } from "react-icons/fi";
 
 // navigation
 export const navigation = [
@@ -22,3 +23,19 @@ export const navigation = [
       href: "contact",
     },
   ];
+
+  // contact
+export const contact = [
+  {
+    icon: <FiPhone />,
+    title: "Schedule an Appointment?",
+    subtitle: "Best way to get in touch with me:",
+    description: "Phone Number: xxx-xxx-xxxx",
+  },
+  {
+    icon: <FiMapPin />,
+    title: "Locations Available",
+    subtitle: "Bucks County, Pennsylvania",
+    description: "Willing to travel anywhere in the bucks county area",
+  },
+];
