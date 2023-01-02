@@ -9,7 +9,7 @@ const Contact = () => {
     <section className="section bg-primary" id="contact">
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center">
-          <h2>Contact Me</h2>
+          <h2 className="text-3xl font-bold mb-4 text-gray-800">Contact Me</h2>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">
           <div className="flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2">

@@ -15,10 +15,6 @@ export const navigation = [
       href: "services",
     },
     {
-      name: "testimonials",
-      href: "testimonials",
-    },
-    {
       name: "contact",
       href: "contact",
     },
