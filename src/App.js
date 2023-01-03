@@ -3,6 +3,7 @@ import CleanerLandingPage from "./components/hero";
 import AboutMe from "./components/about";
 import Contact from "./components/contact";
 import Services from "./components/services";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <AboutMe />
       <Services />
       <Contact />
+      <Footer />
     </>
   );
 }

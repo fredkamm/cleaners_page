@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <section className="section bg-primary" id="about">
+    <section className="section bg-gradient-to-t from-primary2 to-primary" id="about">
       <div className="bg-secondary p-8">
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-bold mb-4 text-gray-800">About Me</h2>
