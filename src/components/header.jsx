@@ -21,7 +21,7 @@ function header() {
     >
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}
-        <a href="/home">
+        <a href="/">
           <img className="h-[250px]" src={Logo} alt="" />
         </a>
         {/* nav */}

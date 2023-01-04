@@ -1,22 +1,31 @@
 import React from "react";
 
+// import services data
+import { services } from "../data";
+
 const Services = () => {
   return (
-    <section className="section bg-gradient-to-t from-primary to-primary2" id="services">
-      <div className="bg-secondary p-8">
-        <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-gray-800">Services</h2>
-          <div className="mb-4">
-            <p className="text-gray-700 font-medium">
-              Hi, my name is [Your Name] and I am a [Your Profession]. I have
-              been working in the field for [Number] years and have a passion
-              for [Your Passion].
-            </p>
-          </div>
-          <p className="text-gray-700 font-medium">
-            In my free time, I enjoy [Your Hobbies] and [Other Hobbies]. I am
-            also an avid [Your Favorite Thing] fan.
-          </p>
+    <section id="services" className="section bg-gradient-to-t from-primary to-primary2">
+      <div className="container mx-auto">
+        <div className="flex flex-col items-center text-center">
+          <h2 className="section-title before:content-services relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block">
+            What I do for clients
+          </h2>
+          <p className="subtitle">These are the services that I provide</p>
+        </div>
+        <div className="grid pb-8 lg:grid-cols-3 gap-8">
+          {services.map((service, index) => {
+            const { icon, name, description } = service;
+            return (
+              <div className="border-2 border-text p-6 rounded-2xl" key={index}>
+                <div className="text-text rounded-sm w-12 h-12 flex justify-center items-center mb-14 text-[42px]">
+                  {icon}
+                </div>
+                <h4 className="text-xl font-medium mb-2">{name}</h4>
+                <p>{description}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

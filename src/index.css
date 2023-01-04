@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&display=swap");
+
 @layer base {
   .btn {
-    @apply py-4 px-7 bg-paragraph font-medium text-white flex items-center justify-center rounded-sm hover:bg-accent-hover transition-all;
+    @apply py-4 px-7 border-2 border-text font-medium text-tertiary flex items-center justify-center rounded-3xl hover:bg-accent-hover transition-all;
   }
   .btn-lg {
     @apply h-[54px];
@@ -13,9 +15,13 @@
     @apply h-[48px];
   }
   .input {
-    @apply bg-secondary text-paragraph h-[60px] outline-none pl-6 w-full text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-accent;
+    @apply bg-secondary text-paragraph h-[60px] outline-none pl-6 w-full text-[15px] rounded-lg focus:outline focus:outline-1 focus:outline-accent;
   }
   .textarea {
-    @apply bg-secondary resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-accent;
+    @apply bg-secondary resize-none w-full outline-none p-6 rounded-lg h-[200px] focus:outline focus:outline-1 focus:outline-accent;
   }
+}
+
+h1, h2, li {
+  font-family: 'Dancing Script', cursive;
 }
