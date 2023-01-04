@@ -7,9 +7,9 @@ import { contact } from "../data";
 const Contact = () => {
   return (
     <section className="section bg-primary" id="contact">
-      <div className="container mx-auto">
+      <div className="container mx-auto pb-7">
         <div className="flex flex-col items-center text-center">
-          <h2 className="text-3xl font-bold mb-4 text-gray-800">Contact Me</h2>
+          <h1 className="text-[36px] font-bold py-8 text-gray-800 xl:text-[50px] lg:text-[42px] md:text-[38px]">Contact Me</h1>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">
           <div className="flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2">
@@ -35,7 +35,7 @@ const Contact = () => {
           <form
             method="POST"
             action="https://getform.io/f/7676c069-e04f-4b7d-957f-93f542a8679b"
-            className="space-y-8 w-full max-w-[780px]"
+            className="space-y-8 w-full max-w-[780px] px-3"
           >
             <div className="flex gap-8">
               <input
