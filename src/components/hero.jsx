@@ -11,7 +11,7 @@ const CleanerLandingPage = () => {
         className="bg-cover bg-center min-h-screen flex flex-col items-start justify-center px-4 mx-w-md md:pl-24 lg:pl-44 xl:pl-80"
         style={{ backgroundImage: `url(${Image})` }}
       >
-        <h1 className="text-3xl font-bold mb-4 text-gray-800">Welcome</h1>
+        <h1 className="text-[36px] font-bold py-7 text-gray-800 xl:text-[50px] lg:text-[42px] md:text-[38px]">Welcome</h1>
         <p className="text-gray-600 mb-8 max-w-md">
           We are a small, self-employed cleaning service that provides
           top-quality cleaning services for homes and businesses. Our team is

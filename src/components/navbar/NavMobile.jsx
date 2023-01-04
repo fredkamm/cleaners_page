@@ -80,7 +80,7 @@ const NavMobile = () => {
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className='text-xl cursor-pointer capitalize'
+                className='text-[32px] cursor-pointer capitalize'
               >
                 {item.name}
               </Link>
