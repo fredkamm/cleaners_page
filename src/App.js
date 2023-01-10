@@ -1,6 +1,6 @@
 import Header from "./components/header";
 import CleanerLandingPage from "./components/hero";
-import AboutMe from "./components/about";
+// import AboutMe from "./components/about"; 
 import Contact from "./components/contact";
 import Services from "./components/services";
 import Footer from "./components/footer";
@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
       <CleanerLandingPage />
-      <AboutMe />
+      {/* <AboutMe /> */}
       <Services />
       <Contact />
       <Footer />
